@@ -1,0 +1,97 @@
+body{
+  padding: 0px; margin: 0px;
+  text-align: left; line-height: 1.6;
+  background: linear-gradient(#0d0d0d, #ff6b00);
+  color: aliceblue;
+  font-family: 'Zen Maru Gothic', 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* 左右對齊 */
+  align-items: center;
+  background-color: #150000;       /* 黑紅色 */
+  padding: 20px 40px 20px 0px; margin: 0px; /* 上右下左 */
+  border-radius:0 0 8px 8px;     
+}
+.sticky{
+  position: fixed; /* 固定在頂部 */
+  top: 0;          /* 距離頂部0px */
+  width: 100%;   
+  z-index: 1000;  /* 確保在最上層 */
+}
+.logo{
+  color: white;
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 0px 0px 0px 5px; /* 上右下左 */
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  margin-left: 30px; margin-right: 20px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.nav-links a:hover{
+  text-decoration: underline; /* 滑鼠懸停時的效果 */
+}
+.head{
+    margin-bottom: 0.3em;
+}
+
+/*treelink*/
+.treelink-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.treelink-wrapper .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+.treelink-wrapper h1 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+.treelink-wrapper p.tagline {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+.treelink-wrapper .link-button {
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.treelink-wrapper .link-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+.treelink-wrapper .social-icons {
+  margin-top: 2rem;
+}
+.treelink-wrapper .social-icons a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+.treelink-wrapper .social-icons a:hover {
+  color: #ffb347;
+}

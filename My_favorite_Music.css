@@ -1,0 +1,85 @@
+body{
+  padding: 0px; margin: 0px;
+  text-align: left; line-height: 1.6;
+  background: rgb(23, 1, 1);
+  color: aliceblue;
+  font-family: 'Zen Maru Gothic', 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* 左右對齊 */
+  align-items: center;
+  background-color: #150000;       /* 黑紅色 */
+  padding: 20px 40px 20px 0px; margin: 0px; /* 上右下左 */
+  border-radius:0 0 8px 8px;     
+}
+.sticky{
+  position: fixed; /* 固定在頂部 */
+  top: 0;          /* 距離頂部0px */
+  width: 100%;   
+  z-index: 1000;  /* 確保在最上層 */
+}
+.logo{
+  color: white;
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 0px 0px 0px 5px; /* 上右下左 */
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  margin-left: 30px; margin-right: 20px;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.nav-links a:hover{
+  text-decoration: underline; /* 滑鼠懸停時的效果 */
+}
+.head{
+    margin-bottom: 0.3em;
+}
+.small_title{
+    font-size: 40pt;
+    padding-left: 450px;
+    color:aliceblue;
+}
+/*排圖排文*/
+/*左字右圖*/
+.text_left{
+    font-size: 11pt;
+    padding: 0px 0px 0px 50px; text-align: center;
+    color: aliceblue;
+}
+.image_left{
+    display: flex;
+    justify-content: center;padding-left: 50px;
+    align-items: top;            /* 垂直對上 */
+    gap: 20px;                   /* 圖片與文字的間距 */
+    margin-bottom: 2rem;         /* 每組段落之間的間距 */
+}
+
+
+/*右字左圖*/
+.text_center_2{
+    font-size: 11pt;
+    padding: 0px 0px 0px 300px; text-align: left;
+    background-color: rgb(23, 1, 1);
+    color: aliceblue;
+}
+.text_image_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 1200px;/* 最大寬度 */
+}
+.text_right {
+    flex: 1;
+    color: white; /* 如果背景是黑色 */
+}
+.image_right {
+    flex: 1;
+    margin-left:40px; 
+    padding-right: 20px;
+}
